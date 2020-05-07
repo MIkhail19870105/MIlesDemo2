@@ -3,6 +3,6 @@ public class Main {
         BonusMilesService service = new BonusMilesService();
         int ticketPrice = 5000;
         int miles = service.calculate(ticketPrice);
-        System.out.println(miles);
+        System.out.println("Your bonus miles balance is " + miles + "");
     }
 }
